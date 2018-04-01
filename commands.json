@@ -1,3 +1,4 @@
 {
-    "test": "echo Comando teste. Projeto ok !"
+    "test": "echo Comando teste. Projeto ok !",
+    "rmdir": "rm -rf teste"
 }

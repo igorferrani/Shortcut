@@ -6,10 +6,14 @@ Crie atalhos para seu terminal de forma bem fácil em seu ambiente linux, apenas
 
 ``` bash
 # Rode o atalho `short` seguido do comando definido em seu json
-short run <comando>
+short <comando>
 ```
 
 ## Install
+
+### Requeriments
+- Linux OS
+- Node.js e NPM
 
 Para instalar e utilizar a funcionalida é preciso rodar os comandos abaixo em seu terminal linux
 
@@ -28,7 +32,7 @@ cd ~/Shortcut && npm install
 Após instalar execute o comando teste. Se exibir a mensagem de ok, o projeto está pronto pra ser usado
 
 ``` bash
-short run test
+short test
 # >> Comando teste. Projeto ok !
 ```
 
