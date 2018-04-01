@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:": "echo executou.."
+    "test": "echo Comando teste.",
+    "build": "echo building do projeto.. Finalizado !"
   },
   "author": "Igor Ferrani",
   "license": "ISC",

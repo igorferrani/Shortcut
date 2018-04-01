@@ -41,7 +41,8 @@ Na pasta do projeto existe o arquivo `commands.json`, é nele onde você irá cr
 ``` bash
 # Exemplo de comandos
 {
-    "test": "echo Comando teste. Projeto ok !"
+    "test": "echo Comando teste. Projeto ok !",
+    "build": "cd ~/Shortcut && npm run build"
 }
 ```
 
