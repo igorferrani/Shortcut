@@ -31,7 +31,11 @@ Após instalar execute o comando teste. Se exibir a mensagem de ok, o projeto es
 
 ``` bash
 short test
-# >> Comando teste. Projeto ok !
+
+# >>> Iniciado
+# >>> Processando..
+# Comando teste. Projeto ok !
+# >>> Pronto !
 ```
 
 ## Examples
