@@ -13,16 +13,16 @@ short <comando>
 - Linux OS
 - Node.js e NPM ([Donwload](https://nodejs.org/en/download/))
 
-Para instalar e utilizar a funcionalida é preciso rodar os comandos abaixo em seu terminal linux
+Para instalar e utilizar a funcionalidade é preciso rodar os comandos abaixo em seu terminal linux
 
 ``` bash
-# Baixe o repositório Git e instale via node.js
+# Baixe o repositório do GitHub
 cd ~/ && git clone https://github.com/igorferrani/Shortcut.git
 
-# Acesse o path e instale as dependências do projeto
+# Acesse o path e instale as dependências do projeto com node
 cd ~/Shortcut && npm install
 
-# Execute o arquivo `install.sh` para a instalação
+# Execute o arquivo `install.sh` para a instalação do projeto
 ./install.sh
 
 ```
