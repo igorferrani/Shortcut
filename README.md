@@ -15,9 +15,7 @@ Para instalar e utilizar a funcionalida é preciso rodar os comandos abaixo em s
 
 ``` bash
 # Baixe o repositório Git e instale via node.js
-cd ~/
-
-git clone https://github.com/igorferrani/Shortcut.git
+cd ~/ && git clone https://github.com/igorferrani/Shortcut.git
 
 # Acesse o path e instale as dependências do projeto
 cd ~/Shortcut && npm install
