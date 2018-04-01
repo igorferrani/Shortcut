@@ -12,6 +12,11 @@ then
 else
     echo "### ---------- ###" >> ~/.bashrc
     echo "# Alias para o projeto Shortcut.js" >> ~/.bashrc
-    echo "alias short='~/Shortcut/index.js'" >> ~/.bashrc
+    echo "alias short='node ~/Shortcut/index.js'" >> ~/.bashrc
     echo "### ---------- ###" >> ~/.bashrc
+    
+    # Reset no arquivo bashrc
+    source ~/.bashrc
+
+    echo "Projeto Shortcut.js instalado com sucesso !"
 fi
