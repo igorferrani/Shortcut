@@ -11,7 +11,7 @@ short <comando>
 
 ### Requeriments
 - Linux OS
-- Node.js e NPM
+- Node.js e NPM ([Donwload](https://nodejs.org/en/download/))
 
 Para instalar e utilizar a funcionalida é preciso rodar os comandos abaixo em seu terminal linux
 
