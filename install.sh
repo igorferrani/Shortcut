@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Instala os pacotes de dependências do projeto
+npm install
+
 FILENAME="~/.bashrc"
 
 # Checa se já existe o alias no arquivo bashrc

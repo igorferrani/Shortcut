@@ -2,10 +2,6 @@
 
 Crie atalhos para seu terminal de forma bem fácil em seu ambiente linux, apenas editando um arquivo `.json` !
 
-## Overview
-
-Sem complicação é possível gerenciar seus comandos linux.
-
 ### Build para projetos
 
 ``` bash
@@ -23,7 +19,8 @@ cd ~/
 
 git clone https://github.com/igorferrani/Shortcut.git
 
-cd ~/Shortcut
+# Acesse o path e instale as dependências do projeto
+cd ~/Shortcut && npm install
 
 # Execute o arquivo `install.sh` para a instalação
 ./install.sh
