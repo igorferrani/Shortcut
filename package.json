@@ -1,0 +1,16 @@
+{
+  "name": "shortcut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:": "echo executou.."
+  },
+  "author": "Igor Ferrani",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^4.0.0",
+    "process.argv": "^0.1.0",
+    "shelljs": "^0.8.1"
+  }
+}

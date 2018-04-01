@@ -1,0 +1,4 @@
+### ---------- ###### ---------- ###
+# Alias para o projeto Shortcut.js
+alias short='~/Shortcut/index.js'
+### ---------- ###
