@@ -6,10 +6,12 @@ var object = jsonfile.readFileSync(file);
 
 console.log("")
 console.log("")
-if (object[process.argv[3]]) {
+
+// 2º argumento - alias do comando no arquivo .json
+if (object[process.argv[2]]) {
     console.log(">>> Iniciado")
     console.log(">>> Processando..")
-    shell.exec(object[process.argv[3]]);
+    shell.exec(object[process.argv[2]]);
     console.log(">>> Pronto !")
 } else {
     console.log("Comando inválido. Tente novamente");

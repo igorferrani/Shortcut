@@ -2,28 +2,25 @@
 
 Crie atalhos para seu terminal de forma bem fácil em seu ambiente linux, apenas editando um arquivo `.json` !
 
-## Overview
-
-Sem complicação é possível gerenciar seus comandos linux.
-
-### Build para projetos
-
 ``` bash
 # Rode o atalho `short` seguido do comando definido em seu json
-short run <comando>
+short <comando>
 ```
 
 ## Install
+
+### Requeriments
+- Linux OS
+- Node.js e NPM ([Donwload](https://nodejs.org/en/download/))
 
 Para instalar e utilizar a funcionalida é preciso rodar os comandos abaixo em seu terminal linux
 
 ``` bash
 # Baixe o repositório Git e instale via node.js
-cd ~/
+cd ~/ && git clone https://github.com/igorferrani/Shortcut.git
 
-git clone https://github.com/igorferrani/Shortcut.git
-
-cd ~/Shortcut
+# Acesse o path e instale as dependências do projeto
+cd ~/Shortcut && npm install
 
 # Execute o arquivo `install.sh` para a instalação
 ./install.sh
@@ -33,7 +30,7 @@ cd ~/Shortcut
 Após instalar execute o comando teste. Se exibir a mensagem de ok, o projeto está pronto pra ser usado
 
 ``` bash
-short run test
+short test
 # >> Comando teste. Projeto ok !
 ```
 
@@ -44,7 +41,8 @@ Na pasta do projeto existe o arquivo `commands.json`, é nele onde você irá cr
 ``` bash
 # Exemplo de comandos
 {
-    "test": "echo Comando teste. Projeto ok !"
+    "test": "echo Comando teste. Projeto ok !",
+    "build": "cd ~/Shortcut && npm run build"
 }
 ```
 
