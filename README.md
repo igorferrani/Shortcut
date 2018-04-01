@@ -2,8 +2,6 @@
 
 Crie atalhos para seu terminal de forma bem fácil em seu ambiente linux, apenas editando um arquivo `.json` !
 
-### Build para projetos
-
 ``` bash
 # Rode o atalho `short` seguido do comando definido em seu json
 short <comando>
