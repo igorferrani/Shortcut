@@ -7,13 +7,13 @@ Crie atalhos para seu terminal de forma bem fácil em seu ambiente linux, apenas
 short <comando>
 ```
 
-## Install
+## Instalar
 
-### Requeriments
+### Requisitos
 - Linux OS
 - Node.js e NPM ([Donwload](https://nodejs.org/en/download/))
 
-Para instalar e utilizar a funcionalidade é preciso rodar os comandos abaixo em seu terminal linux
+Para instalar e utilizar a ferramenta é preciso rodar os comandos abaixo em seu terminal linux
 
 ``` bash
 # Baixe o repositório do GitHub
@@ -27,7 +27,7 @@ cd ~/Shortcut && npm install
 
 ```
 
-Após instalar execute o comando teste. Se exibir a mensagem de ok, o projeto está pronto pra ser usado
+Após instalar execute o comando teste. Se aparecer a mensagem abaixo, a ferramenta está pronto pra ser usada
 
 ``` bash
 short test
@@ -38,9 +38,9 @@ short test
 # >>> Pronto !
 ```
 
-## Examples
+## Exemplos
 
-Na pasta do projeto existe o arquivo `commands.json`, é nele onde você irá criar seus comandos para usar no terminal de forma global. A escrita no arquivo é feita de forma fácil com `{ "chave" : "valor" }`
+Na pasta do projeto existe o arquivo `commands.json`, é nele onde você irá criar seus comandos para usar no terminal de forma global. A escrita no arquivo é bem fácil, simplesmente com `{ "chave" : "valor" }`
 
 ``` bash
 # Exemplo de comandos
@@ -51,7 +51,7 @@ Na pasta do projeto existe o arquivo `commands.json`, é nele onde você irá cr
 ```
 
 
-## Used Packages
+## Pacotes usado
 
 - jsonfile (realiza a leitura do arquivo json)
 - process.argv (organiza os parâmetros vindos do shell)
